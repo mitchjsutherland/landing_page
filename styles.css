@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    background-color: cornflowerblue;
+}
+
+#navbar {
+    width: 100%;
+    top: 0px;
+    background-color: papayawhip;
+    height: 60px;
+    position: fixed;
+}
+
+#links {
+    position: relative;
+    right: 40px;
+    float: right;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+}
+
+a:hover {
+    color: slateblue;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+    padding-top: 45px;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-size: 80px;
+    margin-bottom: 0px;
+    text-decoration: underline;
+}
+
+img {
+    height: 400px;
+}
+
+p {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+    font-size: 14px;
+}
+
+#userform {
+    position: relative;
+    top: 30px;
+    text-align: center;
+}
+
+input, button {
+    display: block;
+    margin: 5px auto;
+    padding: 5px;
+}
+
+input {
+    width: 200px
+}
+
+button {
+    width: 80px
+}
+
+footer {
+    width: 100%;
+    bottom: 0px;
+    background-color: papayawhip;
+    height: 60px;
+    position: fixed;
+}
